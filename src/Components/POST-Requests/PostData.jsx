@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';//we'll use useeffect on funnction
 import './Styles.css'
 const PostData = () => {
    const [posts, setPosts] = useState([]);
