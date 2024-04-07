@@ -1,0 +1,62 @@
+/* Styles for the add-post-container */
+.add-post-container {
+   margin: 2rem;
+ }
+ 
+ .add-post-container form {
+   display: flex;
+   flex-direction: column;
+   max-width: 400px;
+ }
+ 
+ .add-post-container input,
+ .add-post-container textarea {
+   margin-bottom: 10px;
+   padding: 5px;
+ }
+ 
+ .add-post-container button {
+   padding: 5px 10px;
+   background-color: #007bff;
+   color: white;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ .add-post-container button:hover {
+   background-color: #0056b3;
+ }
+ 
+ /* Styles for the posts-container */
+ .posts-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   gap: 20px;
+ }
+ 
+ /* Styles for the post-card */
+ .post-card {
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   padding: 10px;
+ }
+ 
+ /* Styles for the post-title */
+ .post-title {
+   margin-bottom: 10px;
+ }
+ 
+ /* Styles for the delete button */
+ .delete-btn {
+   padding: 5px 10px;
+   background-color: #dc3545;
+   color: white;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+ }
+ 
+ .delete-btn:hover {
+   background-color: #c82333;
+ }
+ 
