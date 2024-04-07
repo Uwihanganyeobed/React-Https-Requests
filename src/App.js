@@ -16,7 +16,7 @@ const App = () => {
       {/* <DEVGET/> */}
       {/* <DEVPOST/> */}
       {/* <DEVPUT/> */}
-      <marquee direction="right"><h2><u>UWIHANGANYE Obed Posted and Designed it.</u></h2></marquee>
+      <marquee direction="right"><h2><u> Posted and Designed by UWIHANGANYE Obed.</u></h2></marquee>
       <DEVDELETE/>
     </div>
   )
